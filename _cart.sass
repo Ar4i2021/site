@@ -1,0 +1,294 @@
+.cart-content
+    display: flex
+    justify-content: center
+
+.cart-card
+    display: flex
+    flex-direction: column
+
+.card
+    font-family: Lato
+    font-size: 13px
+    line-height: 20px
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: -0.015em
+    color: #222222
+    display: flex
+    justify-content: space-between
+    border-bottom: 1px solid #eaeaea
+    padding-bottom: 22px
+    margin: 90px 0 0 0
+
+    &__left
+        margin: 0
+
+    &__right
+        justify-content: space-between
+        display: flex
+        width: 660px
+        margin: 0
+        padding-left: 20px
+
+.card-desc
+    display: flex
+    height: 160px
+    border-bottom: 1px solid #eaeaea
+    align-items: center
+    transition: all 0.25s ease-out
+    &:hover
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+
+    &__link
+        display: flex
+        text-decoration: none
+        font-family: Lato
+        font-size: 13px
+        line-height: 1.2
+        font-weight: 700
+        text-transform: uppercase
+        color: #222222
+
+    &__link img
+        width: 100px
+        height: 115px
+
+    &__text
+        margin-left: 20px
+        padding-top: 15px
+
+    &__color,
+    &__size
+        font-family: Lato
+        font-size: 13px
+        line-height: 20px
+        font-weight: 400
+        color: #575757
+        text-transform: none
+
+    &__color
+        margin-top: 33px
+
+    &__right
+        width: 625px
+        font-family: Lato
+        font-size: 13px
+        line-height: 20px
+        font-weight: 400
+        color: #656565
+        display: flex
+        justify-content: space-between
+        margin-left: 228px
+        height: 30px
+        align-items: center
+
+    &__right input
+        width: 31px
+        height: 30px
+        background-color: #ffffff
+        border: 1px solid #eaeaea
+        padding-left: 11px
+        outline: none
+
+    &__right button
+        border: none
+        background-color: unset
+        color: #c0c0c0
+        &:hover
+            color: #ef5b70
+
+.button
+    display: flex
+    justify-content: center
+
+.button-block
+    height: 155px
+    width: 1140px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 29px
+
+.clear,
+.continiue
+    width: 235px
+    height: 50px
+    background-color: #ffffff
+    border: 1px solid #eaeaea
+    font-family: Lato
+    font-size: 14px
+    line-height: 1.2
+    font-weight: 700
+    text-transform: uppercase
+    color: #4a4a4a
+    transition: all 0.15s ease-out
+.clear:hover,
+.continiue:hover
+    background-color: #f16d7f
+    color: #ffffff
+    border: 1px colid #f16d7f
+
+.ordering
+    display: flex
+    justify-content: center
+
+.ordering-block
+    display: flex
+    width: 1140px
+    height: 270px
+    justify-content: space-between
+
+    &__adress
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+    &__adress div
+        font-family: Lato
+        font-size: 16px
+        line-height: 1.2
+        font-weight: 700
+        text-transform: uppercase
+        color: #222222
+
+    &__adress input
+        width: 337px
+        height: 45px
+        background-color: #ffffff
+        border: 1px solid #eaeaea
+        padding-left: 18px
+        outline: none
+
+    &__adress input::placeholder
+        font-family: Lato
+        font-size: 13px
+        font-weight: 400
+        color: #b1b1b1
+
+    &__adress button
+        width: 100px
+        display: flex
+        height: 35px
+        background-color: #ffffff
+        border: 1px solid #eaeaea
+        font-family: Lato
+        font-size: 11px
+        line-height: 1.2
+        font-weight: 700
+        text-transform: uppercase
+        color: #4a4a4a
+        align-items: center
+        justify-content: center
+        transition: all 0.25s ease-out
+        &:hover
+            background-color: #f16d7f
+            color: #ffffff
+            border: 1px solid #f16d7f
+
+    &__coupon
+        display: flex
+        flex-direction: column
+        height: 186px
+        justify-content: space-between
+
+    &__coupon div
+        font-family: Lato
+        font-size: 16px
+        line-height: 1.2
+        font-weight: 700
+        text-transform: uppercase
+        color: #222222
+
+    &__coupon span
+        font-family: Lato
+        font-size: 14px
+        line-height: 1.2
+        font-weight: 300
+        color: #000000
+
+    &__coupon input
+        width: 337px
+        height: 45px
+        background-color: #ffffff
+        border: 1px solid #eaeaea
+        padding-left: 18px
+        outline: none
+
+    &__coupon input::placeholder
+        font-family: Lato
+        font-size: 13px
+        font-weight: 400
+        color: #b1b1b1
+
+    &__coupon button
+        display: flex
+        width: 118px
+        height: 35px
+        background-color: #ffffff
+        border: 1px solid #eaeaea
+        font-family: Lato
+        font-size: 11px
+        line-height: 1.2
+        font-weight: 700
+        text-transform: uppercase
+        color: #4a4a4a
+        align-items: center
+        justify-content: center
+        transition: all 0.25s ease-out
+        &:hover
+            background-color: #f16d7f
+            color: #ffffff
+            border: 1px solid #f16d7f
+
+    &__checkout
+        width: 360px
+        height: 214px
+        background-color: #f5f3f3
+        display: flex
+        align-items: center
+        justify-content: center
+
+    &__checkout button
+        margin-top: 18px
+        width: 273px
+        height: 50px
+        background-color: #f16d7f
+        font-family: Lato
+        font-size: 16px
+        line-height: 1.2
+        font-weight: 700
+        text-transform: uppercase
+        color: #ffffff
+        border: 1px solid #f16d7f
+        transition: all 0.25s ease-out
+        &:hover
+            background-color: #ffffff
+            color: #f16d7f
+            border: 1px solid #f16d7f
+
+.checkout_total
+    width: 273px
+    height: 130px
+    text-align: right
+
+.checkout_price
+    font-family: Lato
+    font-size: 11px
+    line-height: 1.2
+    font-weight: 400
+    text-transform: uppercase
+    color: #4a4a4a
+    margin-bottom: 15px
+
+.checkout_full
+    font-family: Lato
+    font-size: 16px
+    line-height: 1.2
+    font-weight: 700
+    text-transform: uppercase
+    color: #222222
+    padding-bottom: 20px
+    border-bottom: 1px solid #e2e2e2
+
+.pink
+    color: #f16d7f
