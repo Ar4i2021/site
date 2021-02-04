@@ -1997,4 +1997,83 @@ a.footer-menu-link:hover {
   line-height: 23.95px;
   text-align: center;
 }
+
+.registred__heading {
+  color: #222222;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.registred__input {
+  width: 390px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+
+.registred__required:after {
+  content: "*";
+  color: red;
+}
+
+.form-check-label {
+  color: black;
+}
+
+.shipping-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 974px;
+  height: 394px;
+}
+
+.form-button {
+  width: 180px;
+  height: 50px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+
+.form-button:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+  border: 1px colid #f16d7f;
+}
+
+.col-red {
+  color: red;
+}
+
+.info {
+  width: 100%;
+  height: 364px;
+  margin-bottom: 196px;
+  border-bottom: 1px solid #ececec;
+}
+
+.info p {
+  color: #222222;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 72px;
+  text-align: left;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top: 1px solid #ececec;
+}
 /*# sourceMappingURL=style.css.map */
