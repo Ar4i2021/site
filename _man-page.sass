@@ -1,11 +1,12 @@
 .prod__box
-    width: 846px
+    width: 871px
     display: flex
     flex-flow: wrap
     padding: 48px 0 83px 0
+    gap: 30px
 
-.content
-    display: flex
+.product
+    margin: 0
 
 .item-list
     width: 261px
@@ -15,6 +16,7 @@
     background-color: #ffffff
     align-items: center
     display: flex
+    margin: 0
 
 .pager
     display: flex
@@ -41,9 +43,17 @@
 .pager span
     color: #f27d8e
 
+.content
+    display: flex
+    width: 846px
+    padding-top: 43px
+    margin: 0   
+
 .content-button
     display: flex
     margin-bottom: 110px
+    margin-right: 0
+
 
 .content-button button
     width: 150px
@@ -68,9 +78,7 @@
     font-style: normal
     letter-spacing: normal
     line-height: 26px
-
-.dropdown-menu
-    display: none
+    outline: none
 
 .feature-box
     height: 341px
@@ -108,3 +116,187 @@
         letter-spacing: normal
         line-height: 23.95px
         text-align: center
+
+.man-catalog
+    display: flex
+    justify-content: center
+
+.man-page
+    display: flex
+    flex-wrap: wrap
+
+.sidebar
+    display: flex
+    width: 585px
+    height: 598px
+    flex-direction: column
+    margin-top: 70px
+
+    &__menu
+        list-style-type: none
+        margin: 10px 0 10px 22px
+        & li
+            text-decoration: none
+            font-family: Lato
+            font-size: 14px
+            line-height: 33px
+            font-weight: 400
+            color: #6f6e6e
+            padding-left: 10px
+        & a:hover
+            color: #f16d7f
+            border-bottom: 1px solid #f16d7f
+
+    &__category
+        display: flex
+        justify-content: center
+        margin-left: 0
+        & a
+            height: 40px
+            font-family: Lato
+            font-size: 14px
+            font-weight: 700
+            text-transform: uppercase
+            color: #6f6e6e
+            border-left: 5px solid #ef5b70
+            border-bottom: 1px solid #ebebeb
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding-left: 10px
+            margin-bottom: 20px
+            text-decoration: none
+
+        & a:hover
+            color: #f16d7f
+            border-bottom: 1px solid #f16d7f
+
+.filter
+    display: flex
+    width: 846px
+    height: 115px
+    flex-wrap: wrap
+    margin: 70px 0 50px 0
+    justify-content: center
+
+    &__search
+        width: 846px
+        height: 76px
+        display: flex
+        flex-direction: row
+
+    &__left
+        width: 177px
+        display: flex
+        flex-direction: column
+        margin-left: 0
+
+    &__middle
+        width: 282px
+        display: flex
+        flex-direction: column
+
+    &__heading
+        font-family: Lato
+        font-size: 14px
+        line-height: 20px
+        font-weight: 700
+        text-transform: uppercase
+        color: #6f6e6e
+        margin-bottom: 22px
+        margin-left: 0
+
+    &__text
+        display: flex
+        flex-direction: row
+        width: 176px
+        justify-content: space-between
+        margin-left: 0
+        & div
+            margin: 0
+        & div a
+            text-decoration: none
+            font-family: Lato
+            font-size: 14px
+            line-height: 26px
+            font-weight: 400
+            color: #6f6e6e
+            &:hover
+                color: #f16d7f
+
+    &__border
+        border-left: 1px solid #dfdfdf
+        border-right: 1px solid #dfdfdf
+        padding-left: 10px
+        padding-right: 10px
+
+    &__checkbox
+        display: flex
+        flex-wrap: wrap
+        & input
+            margin-right: 8px
+        & label
+            width: 70px
+            font-family: Lato
+            font-size: 16px
+            font-weight: 500
+            text-transform: uppercase
+            color: #6f6e6e
+            margin: 4px 0 4px 0
+
+    &__right
+        width: 263px
+        display: flex
+        flex-direction: column
+        margin-right: 0
+
+    &__range
+        width: 262px
+        height: 6px
+        background-color: #f0f0f0
+        border-radius: 3px
+        flex-shrink: 0
+        margin-top: 5px
+
+    &__price
+        display: flex
+        width: 262px
+        justify-content: space-between
+        & div
+            margin: 20px 0 0 0
+            font-family: Lato
+            font-size: 14px
+            line-height: 26px
+            font-weight: 600
+            color: #6f6e6e
+
+.sort
+    display: flex
+    width: 846px
+    height: 40px
+    background-color: #f3f3f3
+    margin-top: 6px
+    margin-bottom: -15px
+    align-items: center
+
+    &__button,
+    &__choice
+        height: 30px
+        background-color: #ffffff
+        border: 1px solid #ebebeb
+        font-family: Lato
+        font-size: 14px
+        font-weight: 400
+        color: #6f6e6e
+        padding: 5px 10px
+        transition: all 0.3s ease-out
+        outline: none
+        &:hover
+            background-color: #f16d7f
+            color: #fff
+            border: 1px solid #f16d7f
+    &__choice
+        margin-right: 10px
+        & i
+            margin-left: 15px
+            vertical-align: top
